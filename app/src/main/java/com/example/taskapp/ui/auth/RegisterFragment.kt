@@ -5,9 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.taskapp.R
 import com.example.taskapp.databinding.FragmentRegisterBinding
-import com.example.taskapp.databinding.FragmentSplashBinding
 
 class RegisterFragment : Fragment() {
 
