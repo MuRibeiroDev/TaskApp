@@ -6,13 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.taskapp.R
+import com.example.taskapp.databinding.FragmentRecoverAccountBinding
 import com.example.taskapp.databinding.FragmentRegisterBinding
-import com.example.taskapp.databinding.FragmentSplashBinding
-
-class RegisterFragment : Fragment() {
 
 
-    private var _binding: FragmentRegisterBinding? = null
+class RecoverAccountFragment : Fragment() {
+
+    private var _binding: FragmentRecoverAccountBinding? = null
 
     private val binding get() = _binding!!
 
@@ -21,7 +21,7 @@ class RegisterFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentRegisterBinding.inflate(inflater, container, false)
+        _binding = FragmentRecoverAccountBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -29,4 +29,5 @@ class RegisterFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
 }
