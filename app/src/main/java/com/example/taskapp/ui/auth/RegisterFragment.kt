@@ -9,7 +9,6 @@ import com.example.taskapp.databinding.FragmentRegisterBinding
 
 class RegisterFragment : Fragment() {
 
-
     private var _binding: FragmentRegisterBinding? = null
 
     private val binding get() = _binding!!
